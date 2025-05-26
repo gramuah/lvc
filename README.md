@@ -1,7 +1,8 @@
 # Live Video Captioning
 
 ## Introduction to the Live Video Captioning Problem
-[Live Video Captioning](https://paperswithcode.com/task/live-video-captioning) (LVC) involves detecting and describing dense events within video streams. 
+[Live Video Captioning](https://paperswithcode.com/task/live-video-captioning) (LVC) involves detecting and describing dense events within video streams.
+
 Traditional dense video captioning approaches typically focus on offline solutions where the entire video is available for analysis by the captioning model. 
 In contrast, the LVC paradigm requires models to generate captions for video streams in an online manner. 
 This imposes significant constraints, such as working with incomplete observations of the video and the need for temporal anticipation.
@@ -10,17 +11,21 @@ This imposes significant constraints, such as working with incomplete observatio
 <img src="./resources/lvc.png"  width="800px">
 </p>
 
-In this repository we release the evaluation toolkit for the LVC problem, where we include the scripts for the novel Live Score metric detailed in our <a href="https://arxiv.org/abs/2406.14206"> [paper]</a>.
+In this repository we release the evaluation toolkit for the LVC problem, where we include the scripts for the novel Live Score metric detailed in our <a href="https://doi.org/10.1007/s11042-025-20908-w"> [paper]</a>.
 
 **If you use any content of this repo for your work, please cite the following bib entry:**
 
-    @article{lvc2024,
-      title={Live Video Captioning},
-      author={Eduardo Blanco-Fernández and Carlos Gutiérrez-Álvarez and Nadia Nasri and Saturnino Maldonado-Bascón and Roberto J. López-Sastre},
-      journal={arXiv preprint arXiv:2406.14206},
-      year={2024}
-    }
-
+    @article{lvc,
+    author={Blanco-Fern{\'a}ndez, Eduardo and Guti{\'e}rrez-{\'A}lvarez, Carlos and Nasri, Nadia and Maldonado-Basc{\'o}n, Saturnino and L{\'o}pez-Sastre, Roberto J.},
+    title={Live video captioning},
+    journal={Multimedia Tools and Applications},
+    year={2025},
+    month={May},
+    day={23},
+    issn={1573-7721},
+    doi={10.1007/s11042-025-20908-w},
+    url={https://doi.org/10.1007/s11042-025-20908-w}
+    }    
 
 
 ## Installation
